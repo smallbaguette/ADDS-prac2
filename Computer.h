@@ -2,13 +2,13 @@
 #define COMPUTER_H
 
 class Computer {
-private:
-    char move;
+//private:
+//    char move;
 
 public:
     Computer();
-    char getMove(); // returns current move choice
-    void makeMove(); // causes move choice to be made
+    char makeMove(); // returns current move choice
+    char move;
 
 };
 #endif

@@ -2,13 +2,13 @@
 #define HUMAN_H
 
 class Human {
-private:
-    char move;
+//private:
+//    char move;
 
 public:
     Human();
-    char getMove(); // returns current move choice
-    void makeMove(); // causes move choice to be made
+    char makeMove(); // returns current move choice
+    char move;
 
 };
 #endif

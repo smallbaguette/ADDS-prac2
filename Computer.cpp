@@ -4,10 +4,7 @@
 Computer::Computer() {
 }
 
-char Computer::getMove() {
-    return move;
-}
-
-void Computer::makeMove() {
+char Computer::makeMove() {
     move = 'R';
+    return move;
 }

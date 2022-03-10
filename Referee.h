@@ -10,7 +10,7 @@ private:
 
 public:
     Referee();
-    char refGame(Human player1, Computer player2); // pass-by-reference
+    char refGame(Human player1, Computer player2);
 
 };
 #endif

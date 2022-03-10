@@ -5,11 +5,8 @@
 Human::Human() {
 }
 
-char Human::getMove() {
-    return move;
-}
-
-void Human::makeMove() {
+char Human::makeMove() {
     std::cout<<"Enter move: ";
     std::cin>>move;
+    return move;
 }
