@@ -2,13 +2,12 @@
 #define HUMAN_H
 
 class Human {
-//private:
-//    char move;
+private:
+    char move;
 
 public:
     Human();
     char makeMove(); // returns current move choice
-    char move;
-
+    friend class Referee;
 };
 #endif

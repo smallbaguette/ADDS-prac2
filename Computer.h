@@ -2,13 +2,13 @@
 #define COMPUTER_H
 
 class Computer {
-//private:
-//    char move;
+private:
+    char move;
 
 public:
     Computer();
     char makeMove(); // returns current move choice
-    char move;
+    friend class Referee;
 
 };
 #endif
