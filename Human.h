@@ -4,10 +4,9 @@
 class Human {
 private:
     char move;
-
+    char makeMove(); // returns current move choice
 public:
     Human();
-    char makeMove(); // returns current move choice
     friend class Referee;
 };
 #endif
