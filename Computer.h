@@ -4,9 +4,9 @@
 class Computer {
 private:
     char move;
-    char makeMove(); // returns current move choice
 public:
     Computer();
+    char makeMove(); // returns current move choice
     friend class Referee;
 
 };
