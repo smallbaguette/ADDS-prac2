@@ -8,13 +8,12 @@ Referee::Referee(){
 }
 
 char Referee::refGame(Human player1, Computer player2) {
-	char result;
 	if (player1.move=='P') {
-	    result='W';
+	    return 'W';
 	} else if (player1.move=='S') {
-	    result='L';
+	    return 'L';
 	} else if (player1.move==player2.move) {
-	    result='T';
+	    return 'T';
 	}
-	return result;
+	return '0';
 }

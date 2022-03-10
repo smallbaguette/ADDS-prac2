@@ -5,8 +5,8 @@
 #include "Computer.h"
 
 class Referee {
-// private:
-//    char result;
+private:
+    char result;
 
 public:
     Referee();
