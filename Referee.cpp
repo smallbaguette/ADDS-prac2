@@ -12,7 +12,7 @@ char Referee::refGame(Human player1, Computer player2) {
 	    return 'W';
 	} else if (player1.move=='S') {
 	    return 'L';
-	} else if (player1.move==player2.move) {
+	} else if (player1.move=='R') {
 	    return 'T';
 	}
 }
